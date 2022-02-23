@@ -8,6 +8,7 @@ const postRoute=require('./routes/posts');
 
 app.use('/posts',postRoute);
 app.use(bodyParser.json());
+app.use(express.json());
 
 //middleware
 /* app.use('/posts',()=>{
