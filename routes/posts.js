@@ -6,6 +6,7 @@ const Post=require('../model/Post')
 
 router.get('/',(req,res)=>{
     res.send("hello world");
+    res.send ("hello)
 });
 
 router.post('/',(req,res)=>{
